@@ -7,6 +7,8 @@ public class SalesTool {
 	   System.out.println("Inside SalesTool class");
 	   
 	   System.out.println("Insode SalesTool 2");
+	   
+	   System.out.println("SalesTool Ends");
 	}
 
 }

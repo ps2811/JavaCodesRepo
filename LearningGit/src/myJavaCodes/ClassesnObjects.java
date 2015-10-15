@@ -11,6 +11,9 @@ class Person {
 	//instance variables (data or state)
 	String name;
 	int age;
+	void speak() {
+		System.out.println("My name is: " + name + " and I am" + age + " years old");
+	}
 	
 }
 public class ClassesnObjects {
@@ -25,7 +28,8 @@ public class ClassesnObjects {
 		person2.age    = 28;
 		
 		System.out.println(person1.name);
-		
+		person1.speak();
+		person2.speak();
 	}
 
 }

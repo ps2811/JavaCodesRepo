@@ -31,7 +31,7 @@ public class InterfacesApp {
 	}
 	
 	//takes parameter of interface type 
-	public static void outputInfo(InfoInterface info) {
+	public static void outputInfo(InfoInterface	 info) {
 		info.showInfo();
 	}
 
